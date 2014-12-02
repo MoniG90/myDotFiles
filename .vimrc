@@ -16,7 +16,7 @@ endfunction
 vnoremap <C-c> "ry:call Func2X11()<cr>
 execute pathogen#infect()
 
-map <C-p> "+p
+map <C-k> "+p
 
 let g:livepreview_previewer = 'evince'
 
