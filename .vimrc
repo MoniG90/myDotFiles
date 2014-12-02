@@ -39,6 +39,7 @@ colorscheme slate
 :nmap <M-n> :bnext<CR>
 :nmap <M-p> :bprev<CR>
 
-
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 :nmap ; :CtrlPBuffer<CR>
+
+:nmap \e :NERDTreeToggle<CR>
