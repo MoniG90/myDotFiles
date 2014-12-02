@@ -22,3 +22,20 @@ let g:livepreview_previewer = 'evince'
 
 let g:gist_clip_command = 'xclip -selection clipboard'
 
+colorscheme slate
+
+:nmap \l :setlocal number!<CR>
+:nmap \o :set paste!<CR>
+
+:nmap j gj
+:nmap k gk
+
+:set incsearch
+:set ignorecase
+:set smartcase
+:set hlsearch
+:nmap \q :nohlsearch<CR>
+
+:nmap <M-n> :bnext<CR>
+:nmap <M-p> :bprev<CR>
+
