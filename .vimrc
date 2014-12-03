@@ -6,6 +6,9 @@ set expandtab
 set ai
 set si
 
+" change buffer without saving the current buffer
+set hidden
+
 set nu
 
 filetype plugin indent on
@@ -36,8 +39,8 @@ colorscheme slate
 :set hlsearch
 :nmap \q :nohlsearch<CR>
 
-:nmap <M-n> :bnext<CR>
-:nmap <M-p> :bprev<CR>
+:nmap <F4> :bn<CR>
+:nmap <F3> :bp<CR>
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 :nmap ; :CtrlPBuffer<CR>
